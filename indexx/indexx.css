@@ -1,0 +1,207 @@
+/* ### 版面設計 ###*/
+
+body {
+    margin: 24px 10px;
+    font-family: Arial, '新細明體', sans-serif;
+}
+
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+
+#content {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+
+.article {
+    float: left;
+    width: 216px;
+    margin-right: 32px;
+    margin-bottom: 25px;
+}
+
+.article:last-child {
+    margin-right: 0;
+}
+
+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article+.article {
+    margin-right: 0;
+}
+
+
+
+
+
+
+/* ### HEADER LOGO ###*/
+
+.page {
+    float: left;
+}
+
+.page h1 {
+    margin: 0;
+}
+
+.page img {
+    vertical-align: bottom;
+    width: 332px;
+}
+<DIV style="background-color:#C7FF91;width:300px;height:100px;text-align:center;line-height:100px;">
+　測試文字垂直置中
+</DIV>
+
+
+
+
+
+
+
+
+
+/* ### HEADER NAV ###*/
+
+nav {
+    float: right;
+    font-size: 15px;
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+nav li a:hover {
+    border-bottom-color: #ff1e97;
+}
+
+header {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* ### POST 圖文 ###*/
+
+.article img {
+    width: 216px;
+    height: auto;
+    vertical-align: bottom;
+    border: none;
+
+}
+
+.article h2 {
+    color: #328DAA;
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+.article p {
+    color: #000000;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+
+
+.article a {
+    
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+
+.article h2:hover {
+    color: #000000;
+}
+
+.article a:hover {
+    background-color: #F0FFFF
+}
+
+
+
+
+
+
+
+
+
+
+/* ### FOOTER ###*/
+
+footer {
+    background-color: #000000;
+    padding: 5px;
+}
+
+
+footer p {
+    float: left;
+    margin-top: 10px;
+    color: #ffffff
+}
+
+#iconmenu {
+    float: right;
+}
+
+#iconmenu ul {
+    margin: 0;
+    padding: 3px 0 0;
+}
+
+#iconmenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#iconmenu img {
+    border: none;
+    width: 28px;
+    height: 28px;
+}
+
+
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    color: #ffffff;
+    margin-top: 10px;
+}
